@@ -22,13 +22,14 @@ Minimal boilerplate aimed to speed up the process of creating a new NodeJS libra
 
 - `clean`: Deletes the compiled lib folder;
 - `build`: Runs the clean script, transpiles the code with babel to the lib folder and copies the flow references;
-- `build:watch`: Runs the build script in watch mode
-- `lint`: Runs eslint
+- `build:watch`: Runs the build script in watch mode;
+- `lint`: Runs eslint;
 - `flow`: Verifies if there are flow errors;
+- `prepublish`: Runs all the linting/test suites and creates a brand new build;
 - `test`: Runs the test suites with jest;
 - `test:watch`: Runs the tests in watch mode;
-- `test:cov`: Runs the tests and displays coverage (which should't get below 100%!)
-- `test:ci`: Tests lint, flow, and jest errors
+- `test:cov`: Runs the tests and displays coverage (which should't get below 100%!);
+- `test:ci`: Tests lint, flow, and jest errors;
 
 You can build your own light version of setting the env.targets property in .babelrc to `"node": "current"`.
 The version deployed to npm requires at least NodeJS 8.0.0.

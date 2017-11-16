@@ -18,6 +18,7 @@
     "build:watch": "npm run build -- -w",
     "lint": "eslint --fix ./src",
     "flow": "flow",
+    "prepublish": "npm run test:ci && npm run build",
     "test": "jest --env=node",
     "test:watch": "npm test -- --watch",
     "test:cov": "npm test && codecov",
