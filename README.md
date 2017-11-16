@@ -1,12 +1,12 @@
-# nodejs-lib-boilerplate
+# node-lib-boilerplate
 
 Minimal boilerplate aimed to speed up the process of creating a new NodeJS library.
 
 --------------------------------
 
-[![Travis](https://img.shields.io/travis/jkomyno/nodejs-boilerplate.svg)](https://travis-ci.org/jkomyno/nodejs-boilerplate)
-[![npm](https://img.shields.io/npm/v/nodejs-boilerplate.svg)](https://npmjs.com/package/nodejs-boilerplate)
-[![npm](https://img.shields.io/npm/dm/nodejs-boilerplate.svg)](https://npmjs.com/package/nodejs-boilerplate)
+[![Travis](https://img.shields.io/travis/jkomyno/node-lib-boilerplate.svg)](https://travis-ci.org/jkomyno/node-lib-boilerplate)
+[![npm](https://img.shields.io/npm/v/node-lib-boilerplate.svg)](https://npmjs.com/package/node-lib-boilerplate)
+[![npm](https://img.shields.io/npm/dm/node-lib-boilerplate.svg)](https://npmjs.com/package/node-lib-boilerplate)
 
 ## Features
 
