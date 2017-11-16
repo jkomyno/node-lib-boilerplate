@@ -1,0 +1,9 @@
+__tests__
+coverage
+src
+.babelrc
+.editorconfig
+.eslint*
+.npmignore
+.travis.yml
+yarn.lock

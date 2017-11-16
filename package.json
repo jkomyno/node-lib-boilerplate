@@ -1,0 +1,48 @@
+{
+  "name": "node-lib-boilerplate",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "Alberto Schiabel (https://github.com/jkomyno)",
+  "description": "Minimal boilerplate aimed to speed up the process of creating a new NodeJS library.",
+  "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "clean": "rimraf ./lib",
+    "prebuild": "npm run clean",
+    "build": "babel src/ -d lib/",
+    "postbuild": "flow-copy-source ./src ./lib",
+    "build:watch": "npm run build -- -w",
+    "lint": "eslint --fix ./src",
+    "flow": "flow",
+    "test": "jest --env=node",
+    "test:watch": "npm test -- --watch",
+    "test:cov": "npm test && codecov",
+    "test:ci": "npm run lint && npm run flow && npm run test:cov"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
+    "codecov": "^3.0.0",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "flow-bin": "^0.59.0",
+    "jest": "^21.2.1",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "babel-preset-flow": "^6.23.0",
+    "flow-copy-source": "^1.2.1"
+  }
+}
