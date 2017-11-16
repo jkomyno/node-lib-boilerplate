@@ -1,6 +1,6 @@
 {
   "name": "node-lib-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [],
   "author": "Alberto Schiabel (https://github.com/jkomyno)",
   "description": "Minimal boilerplate aimed to speed up the process of creating a new NodeJS library.",
