@@ -7,8 +7,18 @@ Minimal boilerplate aimed to speed up the process of creating a new NodeJS libra
 [![Travis](https://img.shields.io/travis/jkomyno/node-lib-boilerplate.svg)](https://travis-ci.org/jkomyno/node-lib-boilerplate)
 [![npm](https://img.shields.io/npm/v/node-lib-boilerplate.svg)](https://npmjs.com/package/node-lib-boilerplate)
 [![npm](https://img.shields.io/npm/dm/node-lib-boilerplate.svg)](https://npmjs.com/package/node-lib-boilerplate)
+[![codecov](https://codecov.io/gh/jkomyno/node-lib-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/jkomyno/node-lib-boilerplate) 
 
-## Features
+- [Overview](#overview)
+  - [Features](#features)
+- [Contributing](#contributing)
+  - [Development Scripts](#development-scripts)
+- [Credits](#credits)
+- [License](#license)
+
+## Overview
+
+### Features
 
 - **Type safety** with Flow
 - **Transpilation to ES\*** with Babel Env
@@ -18,7 +28,11 @@ Minimal boilerplate aimed to speed up the process of creating a new NodeJS libra
 - **Static code analysis** with Eslint
 - **Standard format style** with Editorconfig
 
-## Available Scripts
+## Contributing
+
+PRs are always welcome!
+
+### Development Scripts
 
 - `clean`: Deletes the compiled lib folder;
 - `build`: Runs the clean script, transpiles the code with babel to the lib folder and copies the flow references;
